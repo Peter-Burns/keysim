@@ -43,6 +43,13 @@ export default function ColorwayList(props) {
     dispatch(addCustomColorway(cw));
     dispatch(setColorway(cw.id));
   };
+  const addRandomColorway = (e) => {
+    let cw = ColorUtil.getRandomColorwayTemplate(
+      customColorways?.length + 1 || 1
+    );
+    dispatch(addCustomColorway(cw));
+    dispatch(setColorway(cw.id));
+  };
 
   return (
     <CollapsibleSection title="Colorways" open={true}>
@@ -64,6 +71,16 @@ export default function ColorwayList(props) {
             <span>Add New Colorway</span>
           </Button>
         </div>
+        <Button
+          title="Add random"
+          icon={<PlusIcon />}
+          className={styles.add}
+          handler={addRandomColorway}
+          tabIndex="0"
+        >
+          <PlusIcon />
+          <span>Add New Colorway</span>
+        </Button>
         {customColorwayTiles.length ? (
           <div aria-hidden="true" className={styles.listLabel}>
             <span>My Colorways</span>

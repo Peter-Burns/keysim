@@ -128,6 +128,22 @@ export default class ColorUtil {
     return accentOptions[Math.floor(Math.random() * accentOptions.length)];
   }
 
+  static makeRandomColor() {
+    var letters = "0123456789ABCDEF";
+    var color = "#";
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  static getRandomColors() {
+    return {
+      background: this.makeRandomColor(),
+      color: this.makeRandomColor(),
+    };
+  }
+
   static getCaseColor(cw_name) {
     let cw = this.getColorway(cw_name);
     return cw?.case?.color || initial_settings.case.primaryColor;
@@ -136,6 +152,16 @@ export default class ColorUtil {
   static getColorwayTemplate(i) {
     let cw = JSON.parse(JSON.stringify(colorwayTemplate));
     cw.swatches.accent = ColorUtil.getRandomAccent();
+    cw.id = `cw_${Util.randString()}`;
+    cw.label = `My Colorway ${i}`;
+    return cw;
+  }
+
+  static getRandomColorwayTemplate(i) {
+    let cw = JSON.parse(JSON.stringify(colorwayTemplate));
+    cw.swatches.accent = ColorUtil.getRandomColors();
+    cw.swatches.base = ColorUtil.getRandomColors();
+    cw.swatches.mods = ColorUtil.getRandomColors();
     cw.id = `cw_${Util.randString()}`;
     cw.label = `My Colorway ${i}`;
     return cw;
