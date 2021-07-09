@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5602c40d0186b24d0fbc6eb4568e1d41",
+    "revision": "5b240737130ce05aeee166814b8d2dee",
     "url": "/keysim/index.html"
   },
   {
-    "revision": "6389bcec8e109e84fd71",
-    "url": "/keysim/static/css/main.2d7f26ea.chunk.css"
+    "revision": "9b336ae29c2ca665e72c",
+    "url": "/keysim/static/css/main.93a4b554.chunk.css"
   },
   {
     "revision": "ad764430ba32c38b2768",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keysim/static/js/2.1f03a05c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6389bcec8e109e84fd71",
+    "revision": "9b336ae29c2ca665e72c",
     "url": "/keysim/static/js/main.2a7f0b70.chunk.js"
   },
   {
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df0585121c105835bcb73dbcc18be2b3",
     "url": "/keysim/static/media/icon_x.df058512.svg"
+  },
+  {
+    "revision": "a52209ee37c3bb82b7a9159c87c77607",
+    "url": "/keysim/static/media/legends.a52209ee.woff"
   },
   {
     "revision": "aa39265326d82a523bc8fb46238b613c",

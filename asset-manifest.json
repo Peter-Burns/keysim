@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/keysim/static/css/main.2d7f26ea.chunk.css",
+    "main.css": "/keysim/static/css/main.93a4b554.chunk.css",
     "main.js": "/keysim/static/js/main.2a7f0b70.chunk.js",
     "main.js.map": "/keysim/static/js/main.2a7f0b70.chunk.js.map",
     "runtime-main.js": "/keysim/static/js/runtime-main.a75ca373.js",
@@ -8,9 +8,9 @@
     "static/js/2.1f03a05c.chunk.js": "/keysim/static/js/2.1f03a05c.chunk.js",
     "static/js/2.1f03a05c.chunk.js.map": "/keysim/static/js/2.1f03a05c.chunk.js.map",
     "index.html": "/keysim/index.html",
-    "precache-manifest.7ceea617069d54b76b5f7b3e3425be45.js": "/keysim/precache-manifest.7ceea617069d54b76b5f7b3e3425be45.js",
+    "precache-manifest.9051a4da04b5e6e5e5d089cfc4805f1e.js": "/keysim/precache-manifest.9051a4da04b5e6e5e5d089cfc4805f1e.js",
     "service-worker.js": "/keysim/service-worker.js",
-    "static/css/main.2d7f26ea.chunk.css.map": "/keysim/static/css/main.2d7f26ea.chunk.css.map",
+    "static/css/main.93a4b554.chunk.css.map": "/keysim/static/css/main.93a4b554.chunk.css.map",
     "static/js/2.1f03a05c.chunk.js.LICENSE.txt": "/keysim/static/js/2.1f03a05c.chunk.js.LICENSE.txt",
     "static/media/brushed-metal_albedo-512.png": "/keysim/static/media/brushed-metal_albedo-512.3c4dafa9.png",
     "static/media/brushed-metal_roughness-512.png": "/keysim/static/media/brushed-metal_roughness-512.42778e39.png",
@@ -23,6 +23,7 @@
     "static/media/icon_search.630d816d.svg": "/keysim/static/media/icon_search.630d816d.svg",
     "static/media/icon_select.1e7ea8c5.svg": "/keysim/static/media/icon_select.1e7ea8c5.svg",
     "static/media/icon_x.df058512.svg": "/keysim/static/media/icon_x.df058512.svg",
+    "static/media/index.scss": "/keysim/static/media/legends.a52209ee.woff",
     "static/media/lightgold_albedo-512.png": "/keysim/static/media/lightgold_albedo-512.aa392653.png",
     "static/media/lightgold_roughness-512.png": "/keysim/static/media/lightgold_roughness-512.e3ed39a9.png",
     "static/media/logo.a01c0bb1.svg": "/keysim/static/media/logo.a01c0bb1.svg",
@@ -38,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.a75ca373.js",
     "static/js/2.1f03a05c.chunk.js",
-    "static/css/main.2d7f26ea.chunk.css",
+    "static/css/main.93a4b554.chunk.css",
     "static/js/main.2a7f0b70.chunk.js"
   ]
 }
